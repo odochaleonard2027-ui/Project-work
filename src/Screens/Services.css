@@ -1,0 +1,28 @@
+.services{
+    padding: 10px;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.services-col{
+    flex: 1;
+}
+
+.services-col h1{
+    color: brown;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.services-col p{
+    text-align: left;
+    padding: 25px;
+    font-size: 20px;
+    color: gray;
+}
+
+@media(max-width: 700px){
+    .services-col p{
+        font-size: 15px;
+    }
+}

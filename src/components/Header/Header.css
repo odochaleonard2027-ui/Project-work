@@ -1,7 +1,7 @@
 section header{
     display: flex;
     justify-content: right;
-    background-color: rgb(202, 178, 178);
+    background-color: rgb(179, 60, 60);
     height: 6.6vh;
     width:100%;
     /* position: fixed; */
@@ -14,11 +14,17 @@ section header{
 }
 
 header .nav-links-text a{
-    color: antiquewhite;
+    color: black;
     text-decoration: none;
+    transition: 2s;
 }
 
 header .nav-links-text a:hover{
-    background-color: brown;
-    color: black;
+    /* background-color: black; */
+    color: antiquewhite;
+}
+@media(max-width: 700px){
+    section header{
+        width: 150%;
+    }
 }

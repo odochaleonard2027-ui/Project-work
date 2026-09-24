@@ -9,7 +9,7 @@ const Aboutus = () => {
         <div className="about-text">
           <h3>About us</h3>
           <h2>Building skills <br/> Building future</h2>
-          <p>At morning className Digital Skills Academy, we provide practical training that helps you create a future</p>
+          <p>At morning Digital Skills Academy, we provide practical training that helps you create a future</p>
           <ul>
             <li>&#10004; Practical Hands-on </li>
             <li>&#10004; Expert Instrutors</li>

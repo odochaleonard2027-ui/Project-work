@@ -1,7 +1,7 @@
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url(../../Downloads/146103.jpg);
+    background-image: url(../../assets/background.png);
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: cover;
@@ -21,7 +21,7 @@
     text-align: center;
     color: aliceblue;
     width: 80%;
-    min-width: 700px;
+    /* min-width: 700px; */
 }
 
 .hero-content h1{
@@ -34,6 +34,23 @@
     font-size: 21px;
     line-height: 1.6em;
     margin-bottom: 30px;
+}
+
+@media(min-width: 700px){
+    .hero{
+        height: 100vh;
+        width: 100%;
+    }
+    .hero-content h1{
+        font-size: 15px;
+    }
+    .hero-content p{
+        font-size: 11px;
+    }
+    .overlay{
+     width: 100%;
+     height: 100%;
+    }
 }
 
 /* BUTTON */
