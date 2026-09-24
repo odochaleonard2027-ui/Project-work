@@ -1,0 +1,41 @@
+/* Call to Action */
+.cta {
+    text-align: center;
+    padding: 80px 10px;
+    background-color: brown;
+    color: #f5f5f5;
+}
+
+/* Content */
+.cta-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.cta-content h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.cta-content p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+/* Button */
+.cta-content .cta-button {
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    background-color: coral;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.cta-content .cta-button:hover{
+    background-color: black;
+    color: antiquewhite;
+    padding: 19px;
+}

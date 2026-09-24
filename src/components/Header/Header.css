@@ -1,0 +1,24 @@
+section header{
+    display: flex;
+    justify-content: right;
+    background-color: rgb(202, 178, 178);
+    height: 6.6vh;
+    width:100%;
+    /* position: fixed; */
+}
+
+.nav-links-text{
+    margin-top: auto; margin-bottom: auto;
+    padding-right: 10px;
+    position: sticky;
+}
+
+header .nav-links-text a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+header .nav-links-text a:hover{
+    background-color: brown;
+    color: black;
+}
